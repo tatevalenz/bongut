@@ -1,0 +1,126 @@
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body{
+    
+}
+h1,h2,h3,h4{
+    font-family: 'Architects Daughter', cursive;
+}
+h1,h2{
+    margin-top: 50px !important;
+}
+p{
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+   line-height: 4rem;
+}
+nav{
+    margin-top: 0 !important;
+}
+hr {
+    opacity: 2 !important;
+    margin-bottom: 30px !important;
+    margin: 4rem  auto 1rem !important;
+    width: 50% !important;
+    height: 10px !important;
+    background-color: coral !important;
+    }
+
+button{
+    font-family: 'Satisfy', cursive !important;
+    font-size: 25px !important;
+}
+ol li{
+    list-style: none;
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+.navbar-collapse{
+    
+  margin-top: 0;
+}
+.nav-item{
+  padding: 10px;
+    margin-right: 13rem !important;
+    margin-left: rem;
+}
+
+.nav-item:hover{
+    background-color: coral;
+    border-radius: 1em;
+    padding: 10px;
+}
+.img-thumbnail{
+    width: 250px;
+float: left;
+   margin-right: 15px;
+   margin-top: -10px;
+}
+.titulo{
+    margin-top: 45px;
+    line-height: 4rem;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.parrafo{
+    margin-left: 4rem;
+   margin-top: 15px;
+   
+}
+.letras{
+    letter-spacing: 3px;
+}
+.formulario{
+    width: 100%;
+    text-align: center; 
+}
+.btn{
+    padding: 10px 30px 10px 30px !important; 
+    width: 20%; 
+    margin-top: 15px !important; 
+}
+.btn:hover{
+    background-color: coral !important;
+    
+}
+.venta{
+    
+    font-size: 35px;
+}
+.input-group-text{
+    background-color: coral !important;
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+.nav-link i{
+    font-size: 50px;
+}
+footer{
+    margin-top: 25px;
+}
